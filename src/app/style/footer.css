@@ -7,16 +7,19 @@
     color: white;
     font-weight:500;
     width: 100%;
+    height: auto;
 }
 
 .footerLinks{
     display: flex;
     justify-content: space-between;
     gap: 50px;
+    height: auto;
 }
 
 .footerLinks a{
     text-decoration: none;
+    height: 100%;
     cursor: pointer;
     color: white;
 }
