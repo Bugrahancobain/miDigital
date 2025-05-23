@@ -1,0 +1,32 @@
+.footerMain{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: transparent;
+    color: white;
+    font-weight:500;
+    width: 100%;
+}
+
+.footerLinks{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.footerLinks a{
+    text-decoration: none;
+    color: white;
+}
+
+.footerLinks a:active{
+    color: white;
+}
+
+@media only screen and (max-width: 800px) {
+    .footerMain{
+       flex-direction: column;
+       gap: 25px;
+    }
+  }
