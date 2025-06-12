@@ -35,7 +35,7 @@ export default function Home() {
         <h1>Under Constructions</h1>
         <h2>Mİ DİJİTAL</h2>
         <h3 className="typingEffect">{text}<span className="cursor">|</span></h3>
-        <Link href="mailto:mustafa@noomim.com">
+        <Link href="mailto:mustafa@midijital.com">
           <button>Contact Us</button>
         </Link>
       </div>
